@@ -1,4 +1,4 @@
-package com.mkyong.common;
+package de.fabikaze.ehcache;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;

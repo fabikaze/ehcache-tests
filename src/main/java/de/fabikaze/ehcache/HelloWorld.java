@@ -1,4 +1,4 @@
-package com.mkyong.common;
+package de.fabikaze.ehcache;
 
 /**
  * Hello world!
