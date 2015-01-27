@@ -1,0 +1,8 @@
+<ehcache>
+	<diskStore path="java.io.tmpdir" />
+	<defaultCache maxEntriesLocalHeap="10000" eternal="false"
+		timeToIdleSeconds="30" timeToLiveSeconds="60" maxEntriesLocalDisk="10000000" memoryStoreEvictionPolicy="LRU">
+		<persistence strategy="localTempSwap" />
+	</defaultCache>
+	<cache name="testcache" timeToIdleSeconds="20" timeToLiveSeconds="60" diskPersistent="false" overflowToDisk="false" statistics="true" maxElementsInMemory="100" />
+</ehcache>
